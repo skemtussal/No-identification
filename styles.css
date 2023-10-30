@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.blue-background {
+    background-color: #E0EBFE;  
+    width: 370px;
+    height: 1319px;
+    flex-shrink: 0;
+}
+
+.photo {
+width: 370px;
+height: 370px;
+flex-shrink: 0;
+}
+
+h2 {
+    
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contacts p, .tech-skills li, .soft-skills li {
+    
+    margin-bottom: 8px; /* Відступи між рядками */
+}
+
+.contacts a {
+    
+    color: inherit; /* Забираємо синій колір для посилань */
+    text-decoration: none; /* Забираємо підкреслення */
+}
+
+.contacts a:hover {
+    
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+.mail {
+    
+    color: #007BFF
+
+}
+
+.mail p strong {
+    color: black; /* Задаємо чорний колір для "E:" */
+}
+
+.text {
+
+    padding-left: 30px;
+}
+
+/*Права частина сайту*/
+
+.right-section {
+    flex-grow: 1;
+    padding-left: 50px; /* Відступ від лівої частини */
+    width: 50%; /* Задаємо ширину */
+    
+}
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.title {
+    font-size: 45px; /* Розмір шрифту для заголовка */
+    margin-top: 10px;
+    margin-bottom: 10px; /* Відступ знизу */
+    font-weight: bold;
+}
+
+h2 {
+
+font-size: 30px;
+
+}
+
+.description {
+    margin-bottom: 20px; /* Відступ знизу */
+}
+
+.right-section a {
+    
+    color: #007BFF; /* Синій колір для посилань */
+    text-decoration: none; /* Забираємо підкреслення */
+}
+
+.right-section a:hover {
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+.right-section h2 {
+    margin-top: 20px; /* Відступ зверху */
+}
+
